@@ -1,0 +1,135 @@
+.acf-field {
+  input, select {
+    border-radius: 5px;
+    border-bottom: 1px solid #212121;
+    padding: 16px;
+    color: #000;
+  }
+
+  input {
+    border: 1px solid #212121;
+  }
+
+}
+
+
+.acf-fields.-sidebar {
+  padding-bottom: 9rem !important;
+  padding-left: calc(21% + 15px) !important;
+}
+
+.acf-tab-wrap {
+  ul.acf-tab-group {
+    width: calc(21% + 20px);
+
+    & > li {
+
+      &.active > a {
+        background-color: #212121;
+        color: #fff;
+
+        &:visited, &:active, &:focus, &:link {
+          background-color: #212121;
+          border: 0;
+          color: #fff;
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          border: 10px solid transparent;
+          border-bottom-color: #212121;
+          right: -20px;
+          transform: rotate(90deg);
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
+
+.acf-fields.-sidebar::before {
+  padding-right: 15px;
+}
+
+.acf-fields.-sidebar > .acf-field {
+  padding-left: 30px;
+
+}
+
+
+.acf-fields::after {
+  padding-bottom: 120px;
+}
+
+.acf-block-fields {
+  .acf-fields::after {
+    padding-bottom: 0;
+  }
+}
+
+
+.dsn-block-video {
+  position: absolute;
+  background-color: #0a0809;
+  color: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+
+.dsn-title {
+  background: #212121;
+  color: #fff;
+  width: max-content;
+  padding: 10px;
+  font-size: 16px !important;
+  border-radius: 3px;
+}
+
+.dsn-not-support {
+  span {
+    font-size: 14px;
+    top: -7px;
+    position: relative;
+    background: #0085ba;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+}
+
+
+.line-box {
+  width: 100%;
+  height: 2px;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 3px;
+  font-weight: 600;
+
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  &:after {
+    left: 0;
+  }
+
+  &:before {
+    right: 0;
+  }
+}

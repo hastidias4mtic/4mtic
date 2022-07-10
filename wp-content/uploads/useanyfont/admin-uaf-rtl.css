@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'cyberion';
+					src: url('/4mtic/wp-content/uploads/useanyfont/8824CYBERION.woff2') format('woff2'),
+						url('/4mtic/wp-content/uploads/useanyfont/8824CYBERION.woff') format('woff');
+						font-weight: 100; font-style: normal; font-display: auto;
+				}
+
+				.cyberion{font-family: 'cyberion' !important;}
+
+				.et_gf_cyberion{background:none !important;font-family:cyberion;text-indent:0 !important;font-size:25px;}
+
+		

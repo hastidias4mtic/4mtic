@@ -1,0 +1,802 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alcy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-30 14:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Dsn grid <info@dsngrid.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx;_nx:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+
+
+#: 404.php:27 inc/function-helpers.php:653
+#: alcy_helper_plugin/inc/alcy-function-helper.php:400
+msgid "404"
+msgstr ""
+
+#: 404.php:34
+msgid "It looks like nothing was found at this location. Maybe try a search? "
+msgstr ""
+
+#: archive.php:16 index.php:16 page-posts.php:36
+msgid "PREV"
+msgstr ""
+
+#: archive.php:17 index.php:17 page-posts.php:37
+msgid "NEXT"
+msgstr ""
+
+#: comments.php:10 inc/function-helpers.php:410
+msgid "Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Comment Are Closed"
+msgstr ""
+
+#: comments.php:46
+msgid "Name"
+msgstr ""
+
+#: comments.php:47 alcy_helper_plugin/inc/views/shortcode/contactModel.php:34
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:48 inc/function-helpers.php:406 inc/function-helpers.php:412
+msgid "Comment"
+msgstr ""
+
+#: comments.php:55
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:56
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:61
+msgid "Leave a reply to"
+msgstr ""
+
+#: comments.php:62
+msgid "Cancel Reply"
+msgstr ""
+
+#: footer.php:14
+msgid "Contact"
+msgstr ""
+
+#: header.php:34
+msgid "loading"
+msgstr ""
+
+#: header.php:45
+msgid "Hold"
+msgstr ""
+
+#: header.php:49
+msgid "Watch"
+msgstr ""
+
+#: header.php:53
+msgid "View"
+msgstr ""
+
+#. Name of the template
+msgid "About Template"
+msgstr ""
+
+#. Name of the template
+msgid "Page Demo Personal"
+msgstr ""
+
+#: page-personal.php:74
+msgid "About Me"
+msgstr ""
+
+#. Name of the template
+msgid "Posts Template"
+msgstr ""
+
+#: page-posts.php:29
+msgid "Load More"
+msgstr ""
+
+#: page-posts.php:30
+msgid "NO MORE"
+msgstr ""
+
+#. Name of the template
+msgid "Slider Template"
+msgstr ""
+
+#. Name of the template
+msgid "Works Template"
+msgstr ""
+
+#: page-works.php:33
+msgid "All"
+msgstr ""
+
+#: page.php:13 template-parts/single.php:7
+msgid "Pages"
+msgstr ""
+
+#: searchform.php:4
+msgid "Find what you want..."
+msgstr ""
+
+#: alcy_helper_plugin/alcy_helper_plugin.php:36
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#. Name of the template
+msgid "Lida Contact Template"
+msgstr ""
+
+#: inc/alcy-class-nav-list-walker.php:101
+msgid "back"
+msgstr ""
+
+#: inc/alcy-class-nav-list-walker.php:419
+msgid "Add a menu"
+msgstr ""
+
+#: inc/function-helpers.php:20
+msgid "View All Posts in"
+msgstr ""
+
+#: inc/function-helpers.php:189
+msgid "View All Posts in Tag"
+msgstr ""
+
+#: inc/function-helpers.php:222 inc/function-helpers.php:267
+msgid "Next Post"
+msgstr ""
+
+#: inc/function-helpers.php:293
+msgid "Next"
+msgstr ""
+
+#: inc/function-helpers.php:337 inc/function-helpers.php:356
+msgid "Edit"
+msgstr ""
+
+#: inc/function-helpers.php:355
+msgid " at "
+msgstr ""
+
+#: inc/function-helpers.php:364
+msgid "Reply"
+msgstr ""
+
+#: inc/function-helpers.php:372
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/function-helpers.php:434
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/function-helpers.php:437
+msgid "Older Comments"
+msgstr ""
+
+#: inc/function-helpers.php:441
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/function-helpers.php:602
+#: alcy_helper_plugin/inc/alcy-function-helper.php:349
+msgid "Categories Archives"
+msgstr ""
+
+#: inc/function-helpers.php:609
+#: alcy_helper_plugin/inc/alcy-function-helper.php:356
+msgid "Tags Archives"
+msgstr ""
+
+#: inc/function-helpers.php:617
+#: alcy_helper_plugin/inc/alcy-function-helper.php:364
+msgid "Search"
+msgstr ""
+
+#: inc/function-helpers.php:624
+#: alcy_helper_plugin/inc/alcy-function-helper.php:371
+msgid "Author Archives"
+msgstr ""
+
+#: inc/function-helpers.php:631
+#: alcy_helper_plugin/inc/alcy-function-helper.php:378
+msgid "Daily Archives"
+msgstr ""
+
+#: inc/function-helpers.php:639
+#: alcy_helper_plugin/inc/alcy-function-helper.php:386
+msgid "Monthly Archives"
+msgstr ""
+
+#: inc/function-helpers.php:646
+#: alcy_helper_plugin/inc/alcy-function-helper.php:393
+msgid "Yearly Archives"
+msgstr ""
+
+#: inc/function-helpers.php:654
+#: alcy_helper_plugin/inc/alcy-function-helper.php:401
+msgid "Oops! Not Found"
+msgstr ""
+
+#: inc/function-helpers.php:655
+#: alcy_helper_plugin/inc/alcy-function-helper.php:402
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: inc/function-nav.php:7
+msgid "Header Navigation Menu"
+msgstr ""
+
+#: inc/function-required-plugins.php:62
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: inc/function-required-plugins.php:68
+msgid "Kirki"
+msgstr ""
+
+#: inc/function-required-plugins.php:73
+msgid "alcy Helper Plugin"
+msgstr ""
+
+#: inc/function-required-plugins.php:80
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/function-widget.php:17
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/function-widget.php:18
+msgid "This is the widgetized blog sidebar."
+msgstr ""
+
+#: template-parts/single.php:20
+msgid "Share This"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:20
+msgid "Works"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:21
+msgid "New Work"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:22
+msgid "Add Work"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:23
+msgid "Add New Work"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:36
+#: alcy_helper_plugin/inc/alcy-admin-post.php:37
+#: alcy_helper_plugin/inc/alcy-admin-post.php:51
+msgid "Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:38
+msgid "Search Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:39
+msgid "Popular Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:40
+msgid "All Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:43
+msgid "Edit Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:44
+msgid "Update Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:45
+msgid "Add New Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:46
+msgid "New Categories Name"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:47
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:48
+msgid "Add or remove Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:49
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-admin-post.php:50
+msgid "No Categories found."
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:188
+msgid "Image"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:259
+msgid "Size Image"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:274
+msgid "Thumbnail"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:275
+msgid "Medium"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:276
+msgid "Medium Large "
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:277
+msgid "Large "
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:278
+msgid "Original Size Img"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:279
+msgid "Alcy Slider Img"
+msgstr ""
+
+#: alcy_helper_plugin/inc/alcy-function-helper.php:510
+msgid "Not Support In Page Template"
+msgstr ""
+
+#: template-parts/posts/content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/posts/content-none.php:10
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/posts/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/posts/content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/posts/content-slid.php:72
+msgid "Discover"
+msgstr ""
+
+#: template-parts/posts/content-work.php:17
+msgid "Veiw Project"
+msgstr ""
+
+#: template-parts/posts/content.php:40
+msgid "Read More"
+msgstr ""
+
+#: alcy_helper_plugin/inc/views/shortcode/contactModel.php:45
+msgid "Address"
+msgstr ""
+
+#: alcy_helper_plugin/inc/views/shortcode/contactModel.php:54
+msgid "Phone"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/customizer-pages.php:52
+msgid "Alcy Customize Option"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/customizer-pages.php:53
+msgid "My panel description"
+msgstr ""
+
+#. Author of the theme
+#: alcy_helper_plugin/inc/resources/views/pages/options/Block-pages.php:10
+msgid "Design Grid"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:6
+msgid "Ajax Options"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:12
+msgid "Load Pages With Ajax"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:13
+msgid "When navigate like (menu , link) loads "
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:22
+msgid "Load Slider With Ajax"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:23
+msgid ""
+"When navigate from slider loads the target content without reloading the "
+"current page."
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:39
+msgid "Holding Time"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/ajax_options.php:40
+msgid "Duration in seconds."
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/contact_option.php:6
+msgid "Contact Options"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/contact_option.php:12
+msgid "show Contact Popup"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/contact_option.php:13
+msgid ""
+" can be integrated with Popup in several clicks, but in mix it will give you "
+"a great result. will be caught by the eye and attract the attention of your "
+"users."
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/contact_option.php:22
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:66
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:95
+msgid "Sidebar"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/event_smooth_scrolling.php:6
+msgid "Smooth Scrolling Option"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/event_smooth_scrolling.php:13
+msgid "Event Smooth Scrolling"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/event_smooth_scrolling.php:14
+msgid ""
+"Distance. Use smaller value for shorter scroll and greater value for longer "
+"scroll"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/event_smooth_scrolling.php:22
+msgid "Mouse Scroll Step"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/event_smooth_scrolling.php:29
+msgid "Scroll Speed"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/event_smooth_scrolling.php:36
+msgid "Cursor Drag Speed"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/footer_setting.php:4
+msgid "Footer Settings"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/footer_setting.php:11
+msgid "Footer Credits Text"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/footer_setting.php:22
+msgid "Code HTML Footer"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/footer_setting.php:35
+msgid "Code JS Footer"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:5
+msgid "General Options"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:11
+msgid "Portfolio custom slug"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:12
+msgid "if you want your portfolio post type to have a custom slug in the url."
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:21
+msgid "Page Preloader"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:22
+msgid "Enable preloader mask while the page is loading."
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:31
+msgid "Effect AOS"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/general_options.php:41
+msgid "Effect Cursor"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:6
+msgid "Header Image"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:13
+msgid "Light Logo"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:25
+msgid "Dark Logo"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:38
+msgid "Logo Width"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:39
+msgid "0 for auto width"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:52
+msgid "Logo Height"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:53
+msgid "0 for auto Height"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:67
+msgid "Admin Login Logo"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:77
+msgid "Code HTML Header"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:90
+msgid "Code CSS Header"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/header_image.php:102
+msgid "Code JS Header"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/info_menu.php:4
+msgid "Information Menu"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/info_menu.php:25
+msgid "All Information"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/info_menu.php:30
+msgid "Settings"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/info_menu.php:35
+msgid "\"Add new\" (Info) "
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/info_menu.php:40
+msgid "Value"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:9
+msgid "Option Pages"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:24
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:87
+msgid "Normal Header"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:25
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:88
+msgid "None"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:32
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-end.php:38
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-start.php:45
+#:  alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:46
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/experience.php:48
+#:  alcy_helper_plugin/inc/resources/views/pages/options/blocks/skill.php:65
+msgid "Title"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:50
+msgid "Description"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:71
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:100
+msgid "Show"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:72
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:101
+msgid "Hide"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:82
+msgid "Header Type"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/page_options.php:111
+msgid "Background Image"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:4
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:28
+msgid "Social Settings"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:11
+msgid "Display Social ( Footer )"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:15
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:38
+msgid "Social Name"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:16
+#:
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:46
+msgid "initial Social Name"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:23
+msgid "All Social"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:33
+msgid "\"Add new\" (Social) "
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/custmizer/block/social_settings.php:53
+msgid "URL"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-end.php:4
+msgid "Box About End"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-end.php:34
+msgid "Blocks Box About End"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-start.php:4
+msgid "Box About Start"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-start.php:41
+msgid "Blocks Box About Start"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/box-about-start.php:64
+#:  alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:101
+msgid "Brand icon"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:4
+msgid "Brand"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:42
+msgid "Blocks Brand"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:57
+msgid "Proudly served some of the most famous brands."
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:65
+msgid "Brand Item"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:84
+msgid "Link"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/embeddedVideo.php:5
+msgid "Parallax Embedded Video"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/embeddedVideo.php:19
+msgid "Play"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/experience.php:4
+msgid "Experience"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/experience.php:44
+msgid "Blocks Experience"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/gallery.php:4
+msgid "Gallery"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/gallery.php:32
+msgid "Blocks Gallery"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/parallaxImage.php:5
+msgid "Parallax Image"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/parallaxImage.php:31
+msgid "Blocks Parallax Image"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/service.php:4
+msgid "Service"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/skill.php:4
+msgid "Skill"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/skill.php:61
+msgid "Blocks Skill"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/blocks/slider.php:4
+msgid "Slider"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/pages/work.php:4
+msgid "Filter Work"
+msgstr ""
+
+#: alcy_helper_plugin/inc/resources/views/pages/options/pages/work.php:8
+msgid "Filter"
+msgstr ""
+

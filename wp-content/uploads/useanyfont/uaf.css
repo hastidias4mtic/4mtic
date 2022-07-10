@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'cyberion';
+					src: url('/4mtic/wp-content/uploads/useanyfont/8824CYBERION.woff2') format('woff2'),
+						url('/4mtic/wp-content/uploads/useanyfont/8824CYBERION.woff') format('woff');
+					font-weight: 100; font-style: normal; font-display: auto;
+				}
+
+				.cyberion{font-family: 'cyberion' !important;}
+
+						h1, h2, h3, h4, body.single-post .entry-title, body.page .entry-title, .site-title, .menu-alcy-menu-container li a, .menu-alcy-menu-container li span, #menu-alcy-menu li a, #menu-alcy-menu li span{
+					font-family: 'cyberion' !important;
+				}
+		

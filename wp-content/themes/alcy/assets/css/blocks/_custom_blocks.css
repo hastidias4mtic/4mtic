@@ -1,0 +1,14 @@
+.dsn-half .img-fullscreen .container {
+  padding: 0; }
+
+.dsn-half .dsn-box-slider-image-half, .dsn-half .dsn-fullscreen-page {
+  background-color: inherit !important;
+  padding: 0 !important; }
+  .dsn-half .dsn-box-slider-image-half .container, .dsn-half .dsn-fullscreen-page .container {
+    padding: 0; }
+
+.dsn-half .slider-project.slider-project-full .item-project {
+  padding: 0;
+  margin: 0; }
+  .dsn-half .slider-project.slider-project-full .item-project img {
+    padding: 0; }

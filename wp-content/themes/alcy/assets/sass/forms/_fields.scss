@@ -1,0 +1,149 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  width: auto;
+  -webkit-backface-visibility: hidden;
+  background-color: #000;
+  border: 2px solid #212121;
+  box-sizing: border-box;
+  outline: none;
+  padding: 12px 20px;
+  -webkit-appearance: none;
+  outline-offset: 0;
+  border-radius: 0;
+  color: #fff;
+
+}
+
+input[type="search"] {
+  &::-webkit-search-decoration {
+    display: none;
+  }
+}
+
+
+/** input checkbox ******/
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+}
+
+select {
+  display: block;
+  padding: 8px 10px;
+}
+
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  resize: vertical;
+}
+
+.post-full-content {
+  form {
+
+    p {
+      margin: 30px 0;
+    }
+
+  }
+}
+
+
+p.comment-form-cookies-consent {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+  }
+
+  label {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #212121;
+      border: 1px solid rgba(163, 163, 163, 0.2);;
+    }
+
+
+    /* Style the checkmark/indicator */
+    &:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+  }
+
+
+  /* On mouse-over, add a grey background color */
+  &:hover input ~ label:before {
+    //background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  input:checked ~ label:before {
+    background-color: $theme-color;
+  }
+
+
+  /* Show the checkmark when checked */
+  input:checked ~ label:after {
+    display: block;
+  }
+
+
+}

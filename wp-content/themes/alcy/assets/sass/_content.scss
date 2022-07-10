@@ -1,0 +1,201 @@
+
+p:empty {
+  display: none;
+}
+
+
+.dsn-full .dsn-container {
+  & > *:not(.section-padding):not(.section-margin):not(.hero):not(.next-proj):not(.client) {
+    max-width: 1240px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+
+$single-post-space: 30px;
+$single-page-space: 30px;
+$theme-color: #ff274e;
+
+
+@mixin col-layout($type, $space) {
+
+  .post-full-content,
+  .widget_text {
+
+    &.single-#{$type} > *:not(.gallery),
+    &.single-#{$type} > *:not(.wp-block-quote) > p {
+      //margin-top: #{$space}px;
+      margin-bottom: #{$space}px;
+
+
+      &.justified-gallery {
+        margin-bottom: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+
+        &.justified-gallery {
+          margin-bottom: -30px;
+        }
+
+        &.wp-block-gallery {
+          margin-bottom: -15px;
+        }
+      }
+
+
+      &.section-padding {
+        padding-top: $space;
+        padding-bottom: $space;
+        margin: 0;
+
+        &.dsn-normalize-block {
+          padding-top: 0;
+          padding-bottom: 0;
+          margin: $space 0;
+        }
+
+        &:not(.dsn-normalize-block) {
+          padding-top: 0;
+        }
+
+      }
+
+      &:first-child.section-padding {
+        padding-top: 0;
+        background-color: inherit;
+      }
+
+      &.wp-block-gallery {
+        margin-bottom: #{$space - 16 }px;
+
+        .blocks-gallery-image:last-child,
+        .blocks-gallery-item:last-child {
+          margin-bottom: 16px;
+        }
+      }
+
+
+      > *:first-child,
+      &:first-child {
+        margin-top: 0;
+      }
+
+      > *:last-child,
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+
+      @content
+    }
+
+  }
+}
+
+@include col-layout(post, 30);
+@include col-layout(page, 30);
+@include col-layout(project, 50);
+@include col-layout(about, 80);
+
+.post-full-content,
+.widget_text {
+  position: relative;
+  overflow: hidden;
+
+
+  &.single-post,
+  &.single-page {
+    a:not(.wp-block-latest-comments__comment-author):not(.wp-block-latest-comments__comment-link) {
+      color: $theme-color;
+    }
+
+    .wp-block-latest-comments__comment-author,
+    .wp-block-latest-comments__comment-link,
+    .wp-block-latest-posts a {
+      color: #fff !important;
+
+      &:hover {
+        color: $theme-color;
+      }
+    }
+
+  }
+
+
+  /* -------------------------------
+              pagination pages
+   ------------------------------- */
+  .pagination-pages {
+    clear: both;
+
+    .navigation {
+      text-align: center;
+      display: block;
+
+      .nav-links,
+      a {
+        display: inline-block;
+
+      }
+
+      .page-numbers {
+        padding: 0 5px !important;
+        border: 0 !important;
+      }
+
+
+    }
+
+  }
+
+  /* -------------------------------
+             Post Password
+  ------------------------------- */
+
+  .post-password-form {
+
+    p:first-child {
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-size: 16px;
+      font-weight: 600;
+      margin-right: 5px;
+      color: #fff;
+
+      input[name="post_password"] {
+        margin-left: 5px;
+        border: none;
+      }
+
+    }
+
+    input[name="Submit"] {
+      border: none;
+      padding: 12px 20px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+  }
+}
+
+
+.single-project {
+  @for $i from 1 through 20 {
+    .mb-#{$i * 5} {
+      + * {
+        margin-top: 0;
+      }
+    }
+  }
+
+}

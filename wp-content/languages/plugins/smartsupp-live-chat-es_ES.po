@@ -1,0 +1,201 @@
+# Translation of Plugins - Smartsupp – live chat, chatbots, video recordings - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Smartsupp – live chat, chatbots, video recordings - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-10 08:27:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Smartsupp – live chat, chatbots, video recordings - Stable (latest release)\n"
+
+#: admin/views/admin.php:13
+msgid "Give us review on Wordpress.org and get 10€. <a href=\"https://www.smartsupp.com/help/give-us-review-wordpress-org/\" target=\"_blank\">Read more</a>"
+msgstr "Danos una valoración en WordPress.org y recibe 10 €. <a href=\"https://www.smartsupp.com/help/give-us-review-wordpress-org/\" target=\"_blank\">Leer más</a>"
+
+#: admin/views/admin.php:133
+msgid "<a href=\"https://app.smartsupp.com/app/sign/reset\" target=\"_blank\">I forgot my password</a>"
+msgstr "<a href=\"https://app.smartsupp.com/app/sign/reset\" target=\"_blank\">He olvidado mi contraseña</a>"
+
+#: admin/views/admin.php:125
+msgid "Email:"
+msgstr "Email"
+
+#: admin/views/admin.php:115
+msgid "Start personal conversation with your visitors today."
+msgstr "Inicia una conversación personal con tus visitantes hoy."
+
+#: admin/views/admin.php:96 admin/views/admin.php:111 admin/views/admin.php:112
+#: admin/views/admin.php:128 admin/views/admin.php:129
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: admin/views/admin.php:93
+msgid "Not a Smartsupp user yet?"
+msgstr "¿Aún no eres usuario de Smartsupp?"
+
+#: admin/views/admin.php:93
+msgid "Already have an account?"
+msgstr "¿Ya tienes una cuenta?"
+
+#: admin/views/admin.php:50
+msgid "or <a href=\"https://app.smartsupp.com/app/settings/chatbox/text?utm_source=Wordpress&utm_medium=integration&utm_campaign=link\" target=\"_blank\">Set up</a> chat box design first"
+msgstr "o <a href=\"https://app.smartsupp.com/app/settings/chatbox/text?utm_source=Wordpress&utm_medium=integration&utm_campaign=link\" target=\"_blank\">Set up</a> primero diseña de caja de chat"
+
+#: admin/views/admin.php:47
+msgid "Chat with your visitors"
+msgstr "Chatea con tus visitantes"
+
+#: admin/views/admin.php:44
+msgid "Congratulations! Smartsupp live chat is already visible on your website."
+msgstr "¡Enhorabuena! El chat de Smartsupp ya es visible en tu página web."
+
+#: admin/views/admin.php:41
+msgid "All set and running"
+msgstr "Todo listo y funcionando"
+
+#: admin/class-smartsupp-admin.php:229
+msgid "Join the 338 445 companies and freelancers relying on Smartsupp"
+msgstr "Únete a las 338445 empresas y autónomos que confían en Smartsupp"
+
+#: admin/class-smartsupp-admin.php:226
+msgid "POPULAR CHAT SOLUTION OF EUROPEAN WEBSHOPS AND WEBSITES"
+msgstr "LA OPCIÓN DE CHAT MÁS POPULAR PARA TIENDA ONLINE Y PÁGINAS WEB EN EUROPA"
+
+#: admin/class-smartsupp-admin.php:213
+msgid "Explore All Features on our website"
+msgstr "Echa un ojo a todas las funciones en nuestra página web"
+
+#: admin/class-smartsupp-admin.php:207
+msgid "Chat with customers on the go with app for iOS & Android"
+msgstr "Chatea con clientes donde quieras con la aplicación para iOS y Android"
+
+#: admin/class-smartsupp-admin.php:203
+msgid "MOBILE APP"
+msgstr "APP MÓVIL"
+
+#: admin/class-smartsupp-admin.php:198
+msgid "Engage your visitors with automated chat bot"
+msgstr "Capta la atención de tus visitantes con un bot de chat automatizado"
+
+#: admin/class-smartsupp-admin.php:194
+msgid "CHAT BOT"
+msgstr "CAJA DE CHAT"
+
+#: admin/class-smartsupp-admin.php:189
+msgid "Respond to customers' chats and emails from one place"
+msgstr "Responde a los chats y emails de los clientes desde un solo lugar"
+
+#: admin/class-smartsupp-admin.php:185
+msgid "MULTICHANNEL"
+msgstr "MULTICANAL"
+
+#: public/class-smartsupp.php:246
+msgid "Orders"
+msgstr "Pedidos"
+
+#: public/class-smartsupp.php:220
+msgid "Spent"
+msgstr "Gastado"
+
+#: public/class-smartsupp.php:188
+msgid "Billing Location"
+msgstr "Ubicación de facturación"
+
+#: public/class-smartsupp.php:157
+msgid "Name"
+msgstr "Nombre"
+
+#: public/class-smartsupp.php:156
+msgid "Role"
+msgstr "Perfil"
+
+#: public/class-smartsupp.php:155
+msgid "Email"
+msgstr "Email"
+
+#: public/class-smartsupp.php:154
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: admin/views/admin.php:136
+msgid "By signing up, you agree with <a href=\"https://www.smartsupp.com/terms\" target=\"_blank\">Terms</a> and <a href=\"https://www.smartsupp.com/dpa\" target=\"_blank\">DPA</a>"
+msgstr "Al registrarte, aceptas <a href=\"https://www.smartsupp.com/terms\" target=\"_blank\">nuestros términos </a> y <a href=\"https://www.smartsupp.com/dpa\" target=\"_blank\">DPA</a>"
+
+#: admin/views/admin.php:126
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: admin/views/admin.php:96 admin/views/admin.php:111 admin/views/admin.php:112
+#: admin/views/admin.php:128 admin/views/admin.php:129
+msgid "Create a free account"
+msgstr "Crea una cuenta gratis."
+
+#: admin/views/admin.php:71
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/views/admin.php:65
+msgid "Don't put the chat code here! This box is for (optional) advanced customizations via <a href=\"https://developers.smartsupp.com?utm_source=Wordpress&utm_medium=integration&utm_campaign=link\" target=\"_blank\">Smartsupp API</a>"
+msgstr "¡No pongas aquí el código de chat! Este cuadro es para personalizaciones avanzadas (opcionales) a través de <a href=\"https://developers.smartsupp.com?utm_source=Wordpress&utm_medium=integration&utm_campaign=link\" target=\"_blank\"> la API de Smartsupp </a>"
+
+#: admin/views/admin.php:61
+msgid "Advanced settings"
+msgstr "Configuración avanzada"
+
+#: admin/views/admin.php:26
+msgid "Deactivate Chat"
+msgstr "Desactivar Chat"
+
+#: admin/class-smartsupp-admin.php:301
+msgid "Invalid action"
+msgstr "Acción no válida"
+
+#: admin/class-smartsupp-admin.php:300
+msgid "Custom code was updated."
+msgstr "Código personalizado actualizado."
+
+#: admin/class-smartsupp-admin.php:299
+msgid "Password is too short. Minimal length is 6 characters."
+msgstr "La contraseña es demasiado corta. La longitud mínima es de 6 caracteres."
+
+#: admin/class-smartsupp-admin.php:298
+msgid "Email already exists"
+msgstr "El email ya existe"
+
+#: admin/class-smartsupp-admin.php:297
+msgid "Email is required"
+msgstr "Email requerido"
+
+#: admin/class-smartsupp-admin.php:296
+msgid "Invalid password"
+msgstr "Contraseña no válida"
+
+#: admin/class-smartsupp-admin.php:295
+msgid "Email does not exist"
+msgstr "El email no existe"
+
+#: admin/class-smartsupp-admin.php:80 admin/class-smartsupp-admin.php:88
+msgid "Smartsupp Live Chat - Settings"
+msgstr "Smartupp Live Chat -  Configuración"
+
+#. Author of the plugin
+#: admin/class-smartsupp-admin.php:89
+msgid "Smartsupp"
+msgstr "Smartsupp"
+
+#. Description of the plugin
+msgid "Smartsupp live chat - official plugin. Smartsupp is free live chat with visitor recording. The plugin enables you to create a free account or sign in with existing one. Pre-integrated customer info with WooCommerce (you will see names and emails of signed in webshop visitors). Optional API for advanced chat box modifications."
+msgstr "Smartsupp live chat - plugin oficial. Smartsupp es un chat en vivo gratuito con grabación de visitantes. El puglin te permite crear una cuenta gratuita o iniciar sesión con una ya existente. Información del cliente preintegrada con WooCommerce (verás los nombres y emails de los visitantes registrados en la tienda online). API opcional para modificaciones avanzadas del cuadro de chat."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.smartsupp.com"
+msgstr "https://www.smartsupp.com/es/"
+
+#. Plugin Name of the plugin
+#: admin/class-smartsupp-admin.php:81
+msgid "Smartsupp Live Chat"
+msgstr "Smartsupp Live Chat"
